@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header{
+    height: 744px;
+    width: 100%;
+    background-image: url('./IT_Careers.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    height: 45px;
+    width: 585px;
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    color:#fff;
+    text-decoration: none;
+}
+.menu #underline:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+.webdef{
+    width: 735px;
+    height: 210px;
+    margin-top: 174px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.webdef h1{
+    font-size: 64px;
+    color: #fff;
+}
+.webdef p{
+font-size: 18px;
+color: #000;
+}
+.webdef button{
+    width: 184px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: #fff;
+    border-width: 0px;
+    
+}
+.sobial{
+    display: flex;
+    width: 170px;
+    height: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 183px;
+
+}
+.block1{
+    display: flex;
+    height: 842px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.block1 .contents{
+    width: 1050px;
+    height: 582px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block1 .content{
+    width: 407px;
+    height: 233px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block1 .contents .content button{
+    width: 184px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: #fff;
+}
+.block2{
+    width: 100%;
+    height: 504px;
+    display: flex;
+    background-color: #f5f6f7;
+    align-items: center;
+    flex-direction: row;
+}
+.block2 .user{
+    width: 15%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 16%;
+}
+
+.block2 .user h3{
+    font-size: 16px;
+}
+
+.block2 .user p{
+    font-size: 14px;
+}
+
+.block2 .slider{
+    width: 845px;
+    height: 280px;
+    margin-left: 14%;
+}
+
+.block2 .slider .switch p{
+    width: 10%;
+    height: 36px;
+    margin-left: 40%;
+    font-size: 18px;
+}
+
+.block2 .slider .images{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.block4{
+    display: flex;
+    width: 100%;
+    height: 524px;
+    background-image: url('./find222.jpg');
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.block4 h2{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+.block4 .email{
+    display: flex;
+    align-items: center;
+}
+.block4 .email input{
+    width: 340px;
+    height: 46px;
+}
+.block .email button{
+    width: 56px;
+    height: 50px;
+    background-color: #00AFDB;
+    color: #f5f6f7;
+    border-width: 0px;
+}
+.block5{
+    display: flex;
+    width: 100%;
+    height: 464px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.block5 .content{
+    width: 470px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.block5 .content h2{
+    font-size: 24px;
+
+}
+.block5 .content p{
+    font-size: 14px;
+    
+}
+.block5 .buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.block5 .buttons .button1{
+    width: 127;
+    height: 47px;
+    background-color: #00AFDB;
+    border-width: 0px;
+}
+.bt-1{
+    display: flex;
+
+}
+.bt-1 img{
+    background-color: #00AFDB;
+    height: 25px;
+    width: 25px;
+    padding: 11px;
+}
+footer{
+    display: flex;
+    height: 185px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .links{
+    width: 235px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .links a{
+    color: #fff;
+    text-decoration: none;
+}
+footer p{
+color: #818181;
+text-decoration: none;
+}
+footer img{
+    height: 46px;
+    width: 46px;
+}
